@@ -31,7 +31,7 @@ const Navbar = () => {
     <>
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
-          href={"/"}
+          to={"/about"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
           <p className="font-semibold uppercase">About</p>
@@ -39,7 +39,7 @@ const Navbar = () => {
       </li>
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
-          href={"/"}
+          to={"/services"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
           <p className="font-semibold uppercase">Services</p>
@@ -47,7 +47,7 @@ const Navbar = () => {
       </li>
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
-          href={"/"}
+          to={"/"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
           <p className="font-semibold uppercase">Business Intelligence</p>
@@ -55,7 +55,7 @@ const Navbar = () => {
       </li>
       <li className="me-4 md:py-4  transition-all duration-300 text-gray-400">
         <Link
-          href={"/"}
+          to={"/"}
           aria-disabled
           className="flex flex-col justify-center items-center gap-[2px] cursor-default"
         >
@@ -64,7 +64,7 @@ const Navbar = () => {
       </li>
       <li className="me-4 md:py-4  transition-all duration-300 ">
         <Link
-          href={"/"}
+          to={"/contact"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
           <p className="font-semibold uppercase">Contact Us</p>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="text-xl md:text-2xl uppercase font-bold"
-                    href={"/"}
+                    to={"/"}
                   >
                     <img className="h-[40px]" src={mainlogo} alt="" />
                   </Link>
