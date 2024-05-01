@@ -14,7 +14,7 @@ const Expertise = () => {
           existing problems but are also scalable and sustainable for future
           growth and innovation.
         </p>
-        <h1 className="text-white text-4xl md:text-8xl leading-[2.5rem] md:leading-[7rem] text-wrap">
+        <h1 className="text-white text-3xl md:text-8xl leading-[2.5rem] md:leading-[7rem] text-wrap">
           custom development <span className="text-gray-700 font-light">/</span>{" "}
           blockchain solutions
           <span className="text-gray-700 font-light">/</span> <br /> uxui{" "}

@@ -18,7 +18,7 @@ const PastWorks = () => {
         </div>
         {/* second row */}
         <div className="space-y-8">
-          <h1 className="text-5xl md:text-9xl font-semibold leading-[3.5rem] md:leading-[7rem] tracking-wider">
+          <h1 className="text-5xl md:text-8xl font-semibold leading-[3.5rem] md:leading-[5rem] tracking-wider">
             past <br className="hidden md:block" /> works
           </h1>
           <p className="text-gray-400 text-lg">
