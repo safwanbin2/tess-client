@@ -10,7 +10,7 @@ const TechnicalSolutions = () => {
   return (
     <>
       <div className="pt-24 w-full min-h-screen flex justify-center items-center">
-        <div className="w-11/12 mx-auto text-white grid grid-cols-3 gap-10">
+        <div className="w-11/12 mx-auto text-white grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <div className="col-span-1 space-y-5">
               <div className="space-y-8">
@@ -30,7 +30,7 @@ const TechnicalSolutions = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-2 grid grid-cols-2 gap-10">
+          <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
             <div>
               <button
                 onClick={() => setWeb2((prev) => !prev)}
@@ -38,8 +38,8 @@ const TechnicalSolutions = () => {
               >
                 <div className="flex justify-between">
                   <div className="space-y-3">
-                    <h3 className="uppercase">Technology</h3>
-                    <h2 className="text-2xl font-semibold tracking-wider">
+                    <h3 className="uppercase hidden md:block">Technology</h3>
+                    <h2 className="text-base md:text-2xl font-semibold tracking-wider">
                       Web 2.0
                     </h2>
                   </div>
@@ -73,8 +73,8 @@ const TechnicalSolutions = () => {
               >
                 <div className="flex justify-between">
                   <div className="space-y-3 text-start">
-                    <h3 className="uppercase">Technology</h3>
-                    <h2 className="text-2xl font-semibold tracking-wider">
+                    <h3 className="uppercase hidden md:block">Technology</h3>
+                    <h2 className="text-base md:text-2xl font-semibold tracking-wider">
                       Mgmt Softwares
                     </h2>
                   </div>
@@ -109,8 +109,8 @@ const TechnicalSolutions = () => {
               >
                 <div className="flex justify-between">
                   <div className="space-y-3">
-                    <h3 className="uppercase">Technology</h3>
-                    <h2 className="text-2xl font-semibold tracking-wider">
+                    <h3 className="uppercase hidden md:block">Technology</h3>
+                    <h2 className="text-base md:text-2xl font-semibold tracking-wider">
                       Web 3.0
                     </h2>
                   </div>
@@ -144,8 +144,8 @@ const TechnicalSolutions = () => {
               >
                 <div className="flex justify-between">
                   <div className="space-y-3 text-start">
-                    <h3 className="uppercase">Technology</h3>
-                    <h2 className="text-2xl font-semibold tracking-wider">
+                    <h3 className="uppercase hidden md:block">Technology</h3>
+                    <h2 className="text-base md:text-2xl font-semibold tracking-wider">
                       AI and ML
                     </h2>
                   </div>
