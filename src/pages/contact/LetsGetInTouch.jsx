@@ -3,12 +3,12 @@ import fixedbg from "../../assets/fixedbg.jpg";
 const LetsGetInTouch = () => {
   return (
     <>
-      <div className="py-40 w-full min-h-screen flex justify-center items-center">
+      <div className="py-24 w-full min-h-screen flex justify-center items-center">
         <div className="w-11/12 mx-auto space-y-10">
-          <h1 className="text-white text-8xl leading-[7rem]">
-            Let's get <br /> in touch
+          <h1 className="text-white text-4xl md:text-8xl leading-[2.8rem] md:leading-[7rem]">
+            Let's get <br className="hidden md:block" /> in touch
           </h1>
-          <div className="text-white grid grid-cols-3 gap-24">
+          <div className="text-white flex flex-col-reverse  md:grid grid-cols-3 gap-10 md:gap-24">
             <div className="col-span-2">
               {/* <img src={fixedbg} alt="" /> */}
               <iframe
@@ -16,7 +16,7 @@ const LetsGetInTouch = () => {
                 // width="600"
                 // height="450"
                 style={{ border: "0px" }}
-                className="w-full h-full rounded-2xl"
+                className="w-full h-[50vh] md:h-full rounded-2xl"
                 allowfullscreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

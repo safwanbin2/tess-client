@@ -3,9 +3,9 @@ import React from "react";
 const BuildingBetterThings = () => {
   return (
     <>
-      <div className="py-40 w-full min-h-screen flex justify-center items-center">
+      <div className="py-24 w-full min-h-screen flex justify-center items-center">
         <div className="w-11/12 mx-auto space-y-10 grid grid-cols-2 gap-5">
-          <h1 className="text-white text-8xl leading-[7rem]">
+          <h1 className="text-white text-4xl md:text-8xl leading-[2.8rem] md:leading-[7rem]">
             finest <br /> solutions <br /> architects
           </h1>
           <div className="space-y-8 pt-52">
