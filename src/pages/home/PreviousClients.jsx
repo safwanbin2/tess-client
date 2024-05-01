@@ -9,12 +9,12 @@ import samsung from "../../assets/clients/samsung.png";
 
 const PreviousClients = () => {
   return (
-    <div className="py-40 w-full min-h-screen flex justify-center items-center">
-      <div className="w-11/12 mx-auto grid grid-cols-5 items-end gap-10">
+    <div className="py-20 md:py-40 w-full min-h-screen flex justify-center items-center">
+      <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-5 items-end gap-10">
         <div className="text-white space-y-10 col-span-2">
           <h3 className="text-blue-600 text-sm">Partnership</h3>
-          <h1 className="text-white text-8xl leading-[7rem]">
-            previous <br /> clienteles
+          <h1 className="text-white text-4xl md:text-8xl leading-[2.5rem] md:leading-[7rem] text-wrap">
+            previous <br className="hidden md:block" /> clienteles
           </h1>
           <p className="text-gray-400 text-lg">
             Our portfolio spans various sectors, showcasing our versatility and

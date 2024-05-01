@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="py-20 w-full flex justify-center items-center bg-black bg-opacity-70">
-      <div className="w-11/12 mx-auto text-white grid grid-cols-3 justify-center gap-20">
+      <div className="w-11/12 mx-auto text-white grid grid-cols-1 md:grid-cols-3 justify-center gap-10 md:gap-20">
         <div className="text-xs text-gray-300 space-y-2">
           <h2 className="text-xl text-white mb-5">TESS SDN BHD</h2>
           <p>The Dune @ Oasis Square</p>
@@ -38,9 +38,9 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="text-end flex flex-col justify-between text-xs text-gray-300">
+        <div className="md:text-end flex flex-col justify-between text-xs text-gray-300">
           <div>
-            <p>LI | X | IG links</p>
+            <p className="tracking-widest">LI | X | IG links</p>
             <p className="text-gray-200 text-base">© all rights reserved.</p>
           </div>
           <p>TESS SDN BHD</p>
