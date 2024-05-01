@@ -72,7 +72,7 @@ const TechnicalSolutions = () => {
                 className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default"
               >
                 <div className="flex justify-between">
-                  <div className="space-y-3">
+                  <div className="space-y-3 text-start">
                     <h3 className="uppercase">Technology</h3>
                     <h2 className="text-2xl font-semibold tracking-wider">
                       Mgmt Softwares
@@ -143,7 +143,7 @@ const TechnicalSolutions = () => {
                 className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default"
               >
                 <div className="flex justify-between">
-                  <div className="space-y-3">
+                  <div className="space-y-3 text-start">
                     <h3 className="uppercase">Technology</h3>
                     <h2 className="text-2xl font-semibold tracking-wider">
                       AI and ML
