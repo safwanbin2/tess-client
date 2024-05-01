@@ -5,7 +5,7 @@ const OurObjecttive = () => {
         <div className="w-11/12 mx-auto text-white space-y-10">
           <div className="space-y-5">
             <h1 className="text-4xl font-semibold leading-[2.8rem] tracking-wider text-violet-500">
-              Out Objecttive
+              Our Objecttive
             </h1>
             <p className="text-gray-300">
               We assist companies by identifying and addressing{" "}
