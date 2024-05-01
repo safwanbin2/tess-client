@@ -22,7 +22,7 @@ const Expertise = () => {
           <br /> strategies
         </h1>
         <div className="inline-block">
-          <Link className="p-btn">
+          <Link to="/services" className="p-btn">
             <span>Full List of Services</span>
           </Link>
         </div>

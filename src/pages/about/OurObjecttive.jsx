@@ -4,11 +4,14 @@ const OurObjecttive = () => {
       <div className="pt-24 w-full min-h-screen flex justify-center items-center">
         <div className="w-11/12 mx-auto text-white space-y-10">
           <div className="space-y-5">
-            <h1 className="text-4xl font-semibold leading-[2.8rem] tracking-wider">
+            <h1 className="text-4xl font-semibold leading-[2.8rem] tracking-wider text-violet-500">
               Out Objecttive
             </h1>
             <p className="text-gray-300">
-              We assist companies by identifying and addressing targeted issues{" "}
+              We assist companies by identifying and addressing{" "}
+              <span className="text-violet-500 font-semibold text-lg">
+                targeted issues
+              </span>
             </p>
           </div>
           <div className="overflow-x-auto">
@@ -19,7 +22,7 @@ const OurObjecttive = () => {
                   <td>
                     <div className="flex items-center gap-10">
                       <div className="avatar text-2xl">1</div>
-                      <div className="text-base">
+                      <div className="text-base text-violet-500">
                         <div className="font-bold">Steamline &</div>
                         <div className="font-bold">profitablility</div>
                       </div>
@@ -43,7 +46,7 @@ const OurObjecttive = () => {
                   <td>
                     <div className="flex items-center gap-10">
                       <div className="avatar text-2xl">2</div>
-                      <div className="text-base">
+                      <div className="text-base text-violet-500">
                         <div className="font-bold">Digital traditional</div>
                         <div className="font-bold">Companies</div>
                       </div>
@@ -63,7 +66,7 @@ const OurObjecttive = () => {
                   <td>
                     <div className="flex items-center gap-10">
                       <div className="avatar text-2xl">3</div>
-                      <div className="text-base">
+                      <div className="text-base text-violet-500">
                         <div className="font-bold">Innovate & incorporate</div>
                         <div className="font-bold">new technologies</div>
                       </div>
@@ -87,7 +90,7 @@ const OurObjecttive = () => {
                   <td>
                     <div className="flex items-center gap-10">
                       <div className="avatar text-2xl">4</div>
-                      <div className="text-base">
+                      <div className="text-base text-violet-500">
                         <div className="font-bold">Cross-selling & cost</div>
                         <div className="font-bold">harmonization</div>
                       </div>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import mainlogo from "../../../assets/logo/main.png";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -69,6 +70,25 @@ const Navbar = () => {
         >
           <p className="font-semibold uppercase">Contact Us</p>
         </Link>
+      </li>
+      <li className="me-4 md:py-4 transition-all duration-300 block md:hidden">
+        <a
+          href="https://t.me/tessinsightsbot"
+          target="_blank"
+          className="flex justify-end items-center gap-4 hover:text-blue-500"
+        >
+          <div className="text-end">
+            <h3 className="text-lg">We are much closer</h3>
+            <p className="text-xs text-gray-500">Chat with our Telegram Bot</p>
+          </div>
+          <div
+            href="https://t.me/tessinsightsbot"
+            target="_blank"
+            className="bg-gray-600 p-3 transition-all duration-300 rounded-full"
+          >
+            <FaTelegramPlane className="text-xl" />
+          </div>
+        </a>
       </li>
     </>
   );
