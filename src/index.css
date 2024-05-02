@@ -79,5 +79,6 @@ body {
 }
 
 .client-logos img {
-  width: 100px;
+  width: 80px;
+  /* margin-right: 500px !important; */
 }

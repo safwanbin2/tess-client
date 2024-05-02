@@ -2,7 +2,7 @@ const InnovateBuild = () => {
   return (
     <>
       <div className="py-10 w-full min-h-[60vh] flex justify-center items-center">
-        <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-5">
+        <div className="w-11/12 md:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-5">
           <div className="space-y-8">
             <h1 className="text-white text-3xl md:text-7xl leading-[2rem] md:leading-[5rem]">
               Innovate <br />{" "}
