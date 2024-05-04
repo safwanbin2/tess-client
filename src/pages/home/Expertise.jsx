@@ -16,7 +16,8 @@ const Expertise = () => {
         <h1 className="text-white text-3xl md:text-6xl leading-[2.5rem] md:leading-[4rem] text-wrap">
           custom development <span className="text-gray-700 font-light">/</span>{" "}
           blockchain solutions{" "}
-          <span className="text-gray-700 font-light">/</span> <br /> uxui{" "}
+          <span className="text-gray-700 font-light">/</span> <br />{" "}
+          integrations <span className="text-gray-700 font-light">/</span> uxui{" "}
           <span className="text-gray-700 font-light">/</span> branding{" "}
           <span className="text-gray-700 font-light">/</span> digital strategies{" "}
           <span className="text-gray-700 font-light">/</span> commercialization

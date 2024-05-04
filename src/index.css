@@ -9,7 +9,7 @@ body {
 }
 
 .fixed-bg {
-  background-image: url("./assets/fixedbg2.jpg");
+  /* background-image: url("./assets/bg.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -79,6 +79,13 @@ body {
 }
 
 .client-logos img {
-  width: 80px;
-  /* margin-right: 500px !important; */
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .client-logos img {
+    width: 80px;
+    height: 80px;
+  }
 }

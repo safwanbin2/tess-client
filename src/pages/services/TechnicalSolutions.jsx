@@ -8,23 +8,26 @@ const TechnicalSolutions = () => {
   const [web3, setWeb3] = useState(false);
   const [aiml, setAiml] = useState(false);
 
+  const services = [
+    "UXUI",
+    "Business Emails",
+    "Website Builder",
+    "Custom CMS",
+    "Basic/Entry Integration",
+    "Custom Bot Builders",
+    "ERP",
+    "Payments",
+    "Full Stack Web/App Dev",
+    "Heavy Integration (W2 & W3)",
+    "Blockchain Tech",
+    "Heavy Customs",
+  ];
+
   return (
     <>
       <div className="pt-24 pb-40 w-full min-h-screen flex justify-center items-center">
         <div className="w-11/12 md:w-9/12 mx-auto">
-          <div className="space-y-5 mb-20">
-            <h1 className="text-4xl md:text-6xl font-semibold leading-[2.8rem] tracking-wider text-violet-500">
-              Our Services
-            </h1>
-            <p className="text-gray-300 text-base">
-              We take pride in providing the best quality technological
-              solutions and services{" "}
-            </p>
-          </div>
-
-          <ServiceCards />
-
-          <div className=" text-white grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className=" text-white grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 mb-40">
             <div>
               <div className="col-span-1 space-y-5">
                 <div className="space-y-8">
@@ -193,6 +196,27 @@ const TechnicalSolutions = () => {
               </div>
             </div>
           </div>
+          <div className="space-y-5 mb-20">
+            <h1 className="text-4xl md:text-6xl font-semibold leading-[2.8rem] tracking-wider text-violet-500">
+              Our Services
+            </h1>
+            <p className="text-gray-300 text-base">
+              We take pride in providing the best quality technological
+              solutions, focusing on innovation and cost-effectiveness.
+            </p>
+
+            <div className="flex flex-wrap gap-4">
+              {services.map((service, index) => (
+                <button
+                  className="border border-white text-white text-sm px-3 py-2 rounded-2xl"
+                  key={index}
+                >
+                  {service}
+                </button>
+              ))}
+            </div>
+          </div>
+          <ServiceCards />
         </div>
       </div>
     </>

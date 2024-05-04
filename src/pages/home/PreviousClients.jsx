@@ -22,7 +22,7 @@ const PreviousClients = () => {
             dedication to excellence in technology and creative execution.
           </p>
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-3 client-logos gap-10 md:gap-y-6 xl:w-[60%] xl:-mr-24">
+        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-3 client-logos gap-10 lg:gap-6 lg:gap-x-0 xl:w-[60%] xl:-mr-24">
           <img src={popsical} alt="" />
           <img src={chatime} alt="" />
           <img src={one} alt="" />
