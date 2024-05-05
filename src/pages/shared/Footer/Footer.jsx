@@ -24,7 +24,11 @@ const Footer = () => {
             </Link>
           </div>
           <div>
-            <Link className="hover:text-gray-50" to={"/"}>
+            <Link
+              className="hover:text-gray-50"
+              to={"https://huruf.gg/"}
+              target="_blank"
+            >
               Business intelligence
             </Link>
           </div>
