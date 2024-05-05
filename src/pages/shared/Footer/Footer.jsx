@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="pb-20 w-full flex justify-center items-center bg-black bg-opacity-70">
+    <div className="py-20 w-full flex justify-center items-center bg-black bg-opacity-70">
       <div className="w-11/12 md:w-10/12 mx-auto text-white grid grid-cols-1 md:grid-cols-3 justify-center gap-10 md:gap-20">
         <div className="text-xs text-gray-300 space-y-2">
           <h2 className="text-xl text-white mb-5">TESS SDN BHD</h2>

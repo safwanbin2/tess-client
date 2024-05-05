@@ -2,7 +2,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const LetsTalk = () => {
   return (
-    <div className="md:w-11/12 mx-auto py-10 md:py-20  flex justify-center items-center bg-black bg-opacity-70">
+    <div className="md:w-11/12 mx-auto py-10  flex justify-center items-center bg-black bg-opacity-70">
       <a
         href="https://t.me/tessinsightsbot"
         target="_blank"

@@ -52,7 +52,8 @@ const Navbar = () => {
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
           onClick={() => setNavbar(!navbar)}
-          to={"/"}
+          to={"https://huruf.gg/"}
+          target="_blank"
           className="flex flex-col justify-center items-center gap-[2px]"
         >
           <p className="font-semibold uppercase md:text-xl">
