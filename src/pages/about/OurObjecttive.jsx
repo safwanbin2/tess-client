@@ -2,12 +2,12 @@ const OurObjecttive = () => {
   return (
     <>
       <div className="pt-24 w-full min-h-screen flex justify-center items-center">
-        <div className="w-11/12 mx-auto text-white space-y-10">
+        <div className="w-11/12 md:w-9/12 mx-auto text-white space-y-10">
           <div className="space-y-5">
-            <h1 className="text-4xl font-semibold leading-[2.8rem] tracking-wider text-violet-500">
-              Our Objecttive
+            <h1 className="text-4xl md:text-6xl font-semibold leading-[2.8rem] tracking-wider text-violet-500">
+              Our Objective
             </h1>
-            <p className="text-gray-300">
+            <p className="text-gray-300 text-base">
               We assist companies by identifying and addressing{" "}
               <span className="text-violet-500 font-semibold text-lg">
                 targeted issues
@@ -30,11 +30,11 @@ const OurObjecttive = () => {
                   </td>
                   <td>
                     <ul>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         Enhance effeciency by simplifying processes and reducing
                         unnecessary steps.
                       </li>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         Increasing earnings through cost reduction, revenue
                         enhancement, and operational effeciency
                       </li>
@@ -54,7 +54,7 @@ const OurObjecttive = () => {
                   </td>
                   <td>
                     <ul>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         Incorporating digital technology to improve effeciency,
                         enhance processes transform operations
                       </li>
@@ -74,11 +74,11 @@ const OurObjecttive = () => {
                   </td>
                   <td>
                     <ul>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         Introducing new ideas, methods, or devices to improve
                         products, services, or processes.
                       </li>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         Integrating the latest technologies into business
                         operatins to stay competitive and meet evolving needs.
                       </li>
@@ -98,13 +98,13 @@ const OurObjecttive = () => {
                   </td>
                   <td>
                     <ul>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         Together with our subsidiaries, we are able to actively
                         optimize various internal processes and resources to
                         reduce unnecessary expenses, which results in a much
                         competitive pricing.
                       </li>
-                      <li className="list-disc">
+                      <li className="list-disc text-base">
                         We not only focus on cost reduction, but also prioritize
                         in adding value, such as a sustainable business model.
                       </li>

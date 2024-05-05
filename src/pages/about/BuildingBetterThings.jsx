@@ -1,12 +1,13 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 
 const BuildingBetterThings = () => {
   return (
     <>
       <div className="pt-24 w-full min-h-screen flex justify-center items-center">
-        <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="w-11/12 md:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <h1 className="text-white text-4xl md:text-8xl leading-[2.8rem] md:leading-[7rem]">
-            finest <br /> solutions <br /> architects
+            finest <br className="hidden md:block" /> solutions <br />{" "}
+            architects
           </h1>
           <div className="space-y-8 md:pt-52">
             <h2 className="font-medium md:text-3xl tracking-wider text-gray-200">

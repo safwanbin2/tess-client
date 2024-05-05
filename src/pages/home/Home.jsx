@@ -12,11 +12,11 @@ const Home = () => {
         <Hero />
         <PastWorks />
         <Expertise />
-        <div className="h-[2px] bg-gray-900 w-11/12 mx-auto"></div>
+        <div className="bg-gray-900 w-11/12 mx-auto"></div>
         <PreviousClients />
         <LetsTalk />
       </div>
-      <FixedBackground />
+      <FixedBackground bgImage="/bg5.jpg" />
     </>
   );
 };

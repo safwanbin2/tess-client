@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import mainlogo from "../../../assets/logo/main.png";
 import { FaTelegramPlane } from "react-icons/fa";
+import { MdClose, MdMoreHoriz } from "react-icons/md";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -32,43 +33,50 @@ const Navbar = () => {
     <>
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
+          onClick={() => setNavbar(!navbar)}
           to={"/about"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
-          <p className="font-semibold uppercase">About</p>
+          <p className="font-semibold uppercase md:text-xl">About</p>
         </Link>
       </li>
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
+          onClick={() => setNavbar(!navbar)}
           to={"/services"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
-          <p className="font-semibold uppercase">Services</p>
+          <p className="font-semibold uppercase md:text-xl">Services</p>
         </Link>
       </li>
       <li className="me-4 md:py-4  transition-all duration-300">
         <Link
+          onClick={() => setNavbar(!navbar)}
           to={"/"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
-          <p className="font-semibold uppercase">Business Intelligence</p>
+          <p className="font-semibold uppercase md:text-xl">
+            Business Intelligence
+          </p>
         </Link>
       </li>
       <li className="me-4 md:py-4  transition-all duration-300 text-gray-400">
         <Link
+          onClick={() => setNavbar(!navbar)}
           to={"/"}
           aria-disabled
           className="flex flex-col justify-center items-center gap-[2px] cursor-default"
         >
-          <p className="font-semibold uppercase">Web 3.0</p>
+          <p className="font-semibold uppercase md:text-xl">Web 3.0</p>
         </Link>
       </li>
       <li className="me-4 md:py-4  transition-all duration-300 ">
         <Link
+          onClick={() => setNavbar(!navbar)}
           to={"/contact"}
           className="flex flex-col justify-center items-center gap-[2px]"
         >
-          <p className="font-semibold uppercase">Contact Us</p>
+          <p className="font-semibold uppercase md:text-xl">Contact Us</p>
         </Link>
       </li>
       <li className="me-4 md:py-4 transition-all duration-300 block md:hidden">
@@ -104,9 +112,9 @@ const Navbar = () => {
           navbar ? "bg-black bg-opacity-10 backdrop-blur-md shadow" : ""
         } py-2 md:py-0`}
       >
-        <div className="justify-between w-11/12 mx-auto md:items-center md:flex">
+        <div className="justify-between w-11/12 mx-auto ">
           <div>
-            <div className="flex items-center justify-between md:block">
+            <div className="flex items-center justify-between">
               <ul className="flex justify-center items-center space-x-4 md:space-x-8 md:space-y-0 tracking-wider">
                 <li>
                   <Link
@@ -117,39 +125,20 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="md:hidden">
+              <div className="">
                 <button
-                  className="p-2 text-white rounded-md outline-none py-4"
+                  className="p-2 text-white rounded-md outline-none py-4 flex items-center gap-2"
                   onClick={() => setNavbar(!navbar)}
                 >
+                  menu
                   {navbar ? (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                    <p className="text-2xl rounded-3xl hover:bg-blue-600">
+                      <MdClose className="text-xl" />
+                    </p>
                   ) : (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4 6h16M4 12h16M4 18h16"
-                      />
-                    </svg>
+                    <p className="hover:bg-blue-600 rounded-full">
+                      <MdMoreHoriz className="text-2xl " />
+                    </p>
                   )}
                 </button>
               </div>
@@ -157,12 +146,12 @@ const Navbar = () => {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-2 font-bold md:font-normal md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-3 mt-2 font-bold md:font-normal  ${
                 navbar ? "block" : "hidden"
               }`}
             >
               <ul
-                className={`flex-col items-start justify-start md:flex-row md:items-center md:justify-center space-y-4 flex md:space-x-8 md:space-y-0 tracking-wider text-sm text-white`}
+                className={`flex-col items-end  space-y-4 md:space-y-2 flex  tracking-wider text-sm text-white`}
               >
                 {NavLinks}
               </ul>
