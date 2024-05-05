@@ -14,9 +14,9 @@ const About = () => {
   return (
     <>
       <div>
-        <Tree />
         <BuildingBetterThings />
         <InnovateBuild />
+        <Tree />
         <OurObjecttive />
         <WeServe />
       </div>
