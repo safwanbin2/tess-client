@@ -33,9 +33,9 @@ const Footer = () => {
             </Link>
           </div>
           <div>
-            <Link className="hover:text-gray-50" to={"/"}>
+            <p className="hover:text-gray-50" to={"/"}>
               Web 3.0
-            </Link>
+            </p>
           </div>
           <div>
             <Link className="hover:text-gray-50" to={"/contact"}>
