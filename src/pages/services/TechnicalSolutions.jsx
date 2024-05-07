@@ -52,7 +52,7 @@ const TechnicalSolutions = () => {
               <div>
                 <button
                   onClick={() => setWeb2((prev) => !prev)}
-                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default"
+                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default min-h-[180px]"
                 >
                   <div className="flex justify-between">
                     <div className="space-y-3">
@@ -88,7 +88,7 @@ const TechnicalSolutions = () => {
               <div>
                 <button
                   onClick={() => setMgmt((prev) => !prev)}
-                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default"
+                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default min-h-[180px]"
                 >
                   <div className="flex justify-between">
                     <div className="space-y-3 text-start">
@@ -124,7 +124,7 @@ const TechnicalSolutions = () => {
               <div>
                 <button
                   onClick={() => setWeb3((prev) => !prev)}
-                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default"
+                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default min-h-[180px]"
                 >
                   <div className="flex justify-between">
                     <div className="space-y-3">
@@ -160,7 +160,7 @@ const TechnicalSolutions = () => {
               <div>
                 <button
                   onClick={() => setAiml((prev) => !prev)}
-                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default"
+                  className="bg-gray-400 bg-opacity-50 rounded-box border-2 border-gray-400 p-5 space-y-10 cursor-default min-h-[180px]"
                 >
                   <div className="flex justify-between">
                     <div className="space-y-3 text-start">
