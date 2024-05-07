@@ -20,7 +20,8 @@ const Expertise = () => {
           integrations <span className="text-gray-700 font-light">/</span> uxui{" "}
           <span className="text-gray-700 font-light">/</span> branding{" "}
           <span className="text-gray-700 font-light">/</span> digital strategies{" "}
-          <span className="text-gray-700 font-light">/</span> commercialization
+          <span className="text-gray-700 font-light">/</span> commercialization{" "}
+          <span className="text-gray-700 font-light">/</span> cybersecurity
         </h1>
         <div className="inline-block">
           <Link to="/services" className="p-btn">
